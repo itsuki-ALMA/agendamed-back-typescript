@@ -1,5 +1,9 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+  <h1>gerar migração <br/>
+npx typeorm-ts-node-commonjs migration:generate ./src/migrations/CreateUsersAndDoctors -d ormconfig.ts
+<br/>
+rodar migração<br/>
+npx typeorm-ts-node-commonjs migration:run -d ormconfig.ts</h1>
 </p>
 gerar migração 
 npx typeorm-ts-node-commonjs migration:generate ./src/migrations/CreateUsersAndDoctors -d ormconfig.ts
