@@ -3,6 +3,7 @@ import { Controller, Post, Body, Get, Req, UseGuards } from '@nestjs/common';
 import { DoctorsService } from './doctors.service';
 import { CreateDoctorDto } from './dto/create-doctor.dto';
 import { JwtStrategy } from '../auth/jwt.strategy';
+import type { RequestWithUser } from 'src/auth/interfaces/request-with-user.interface';
 
 @Controller('doctors')
 export class DoctorsController {
