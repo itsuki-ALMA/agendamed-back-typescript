@@ -12,7 +12,7 @@ export class Agenda {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column({ unique: true })
+  @Column()
   paciente: string;
 
   @Column()
